@@ -1,0 +1,375 @@
+{
+  "name": "repo-explainer",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "music": {
+    "src": "sfx/bed.wav",
+    "volume": 0.35
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "title",
+      "seconds": 3,
+      "text": "One JSON file edits this whole video",
+      "cues": [
+        {
+          "sfx": "whoosh",
+          "at": 0
+        }
+      ],
+      "captions": [
+        [
+          0.2,
+          "One"
+        ],
+        [
+          0.5,
+          "file."
+        ],
+        [
+          1.1,
+          "Every"
+        ],
+        [
+          1.5,
+          "scene"
+        ],
+        [
+          1.9,
+          "and"
+        ],
+        [
+          2.1,
+          "sound."
+        ]
+      ],
+      "from": 0,
+      "durationInFrames": 90,
+      "stepFrames": []
+    },
+    {
+      "id": "page",
+      "template": "ui_demo",
+      "seconds": 4,
+      "repo": "scene-spec / shorts-pipeline",
+      "stars": "2.4k",
+      "cursor": [
+        [
+          0,
+          0.75,
+          0.8
+        ],
+        [
+          1.6,
+          0.3,
+          0.355
+        ],
+        [
+          2.4,
+          0.3,
+          0.355
+        ]
+      ],
+      "clickAt": 2.4,
+      "cues": [
+        {
+          "sfx": "click",
+          "at": 2.4
+        }
+      ],
+      "captions": [
+        [
+          0.1,
+          "Open"
+        ],
+        [
+          0.4,
+          "the"
+        ],
+        [
+          0.6,
+          "project"
+        ],
+        [
+          1,
+          "page,"
+        ],
+        [
+          1.6,
+          "click"
+        ],
+        [
+          2,
+          "the"
+        ],
+        [
+          2.2,
+          "demo."
+        ]
+      ],
+      "from": 90,
+      "durationInFrames": 120,
+      "stepFrames": []
+    },
+    {
+      "id": "flow",
+      "template": "flow",
+      "seconds": 6,
+      "steps": [
+        "Script",
+        "Scene spec",
+        "Shared timeline",
+        "Render"
+      ],
+      "cues": [
+        {
+          "sfx": "pop",
+          "at": "each_step"
+        }
+      ],
+      "captions": [
+        [
+          0.3,
+          "Scenes"
+        ],
+        [
+          0.7,
+          "come"
+        ],
+        [
+          0.9,
+          "from"
+        ],
+        [
+          1.1,
+          "templates."
+        ],
+        [
+          3,
+          "Sounds"
+        ],
+        [
+          3.4,
+          "are"
+        ],
+        [
+          3.6,
+          "pinned"
+        ],
+        [
+          4,
+          "to"
+        ],
+        [
+          4.2,
+          "events."
+        ]
+      ],
+      "from": 210,
+      "durationInFrames": 180,
+      "stepFrames": [
+        12,
+        39,
+        66,
+        93
+      ]
+    },
+    {
+      "id": "cta",
+      "template": "title",
+      "seconds": 3,
+      "text": "Change one number. Everything moves.",
+      "cues": [
+        {
+          "sfx": "whoosh",
+          "at": 0
+        }
+      ],
+      "captions": [
+        [
+          0.2,
+          "Change"
+        ],
+        [
+          0.6,
+          "one"
+        ],
+        [
+          0.9,
+          "number."
+        ]
+      ],
+      "from": 390,
+      "durationInFrames": 90,
+      "stepFrames": []
+    }
+  ],
+  "durationInFrames": 480,
+  "cues": [
+    {
+      "scene": "hook",
+      "sfx": "whoosh",
+      "frame": 0
+    },
+    {
+      "scene": "page",
+      "sfx": "click",
+      "frame": 162
+    },
+    {
+      "scene": "flow",
+      "sfx": "pop",
+      "frame": 222
+    },
+    {
+      "scene": "flow",
+      "sfx": "pop",
+      "frame": 249
+    },
+    {
+      "scene": "flow",
+      "sfx": "pop",
+      "frame": 276
+    },
+    {
+      "scene": "flow",
+      "sfx": "pop",
+      "frame": 303
+    },
+    {
+      "scene": "cta",
+      "sfx": "whoosh",
+      "frame": 390
+    }
+  ],
+  "captions": [
+    {
+      "scene": "hook",
+      "word": "One",
+      "frame": 6
+    },
+    {
+      "scene": "hook",
+      "word": "file.",
+      "frame": 15
+    },
+    {
+      "scene": "hook",
+      "word": "Every",
+      "frame": 33
+    },
+    {
+      "scene": "hook",
+      "word": "scene",
+      "frame": 45
+    },
+    {
+      "scene": "hook",
+      "word": "and",
+      "frame": 57
+    },
+    {
+      "scene": "hook",
+      "word": "sound.",
+      "frame": 63
+    },
+    {
+      "scene": "page",
+      "word": "Open",
+      "frame": 93
+    },
+    {
+      "scene": "page",
+      "word": "the",
+      "frame": 102
+    },
+    {
+      "scene": "page",
+      "word": "project",
+      "frame": 108
+    },
+    {
+      "scene": "page",
+      "word": "page,",
+      "frame": 120
+    },
+    {
+      "scene": "page",
+      "word": "click",
+      "frame": 138
+    },
+    {
+      "scene": "page",
+      "word": "the",
+      "frame": 150
+    },
+    {
+      "scene": "page",
+      "word": "demo.",
+      "frame": 156
+    },
+    {
+      "scene": "flow",
+      "word": "Scenes",
+      "frame": 219
+    },
+    {
+      "scene": "flow",
+      "word": "come",
+      "frame": 231
+    },
+    {
+      "scene": "flow",
+      "word": "from",
+      "frame": 237
+    },
+    {
+      "scene": "flow",
+      "word": "templates.",
+      "frame": 243
+    },
+    {
+      "scene": "flow",
+      "word": "Sounds",
+      "frame": 300
+    },
+    {
+      "scene": "flow",
+      "word": "are",
+      "frame": 312
+    },
+    {
+      "scene": "flow",
+      "word": "pinned",
+      "frame": 318
+    },
+    {
+      "scene": "flow",
+      "word": "to",
+      "frame": 330
+    },
+    {
+      "scene": "flow",
+      "word": "events.",
+      "frame": 336
+    },
+    {
+      "scene": "cta",
+      "word": "Change",
+      "frame": 396
+    },
+    {
+      "scene": "cta",
+      "word": "one",
+      "frame": 408
+    },
+    {
+      "scene": "cta",
+      "word": "number.",
+      "frame": 417
+    }
+  ],
+  "warnings": []
+}

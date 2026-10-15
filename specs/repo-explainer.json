@@ -1,0 +1,44 @@
+{
+  "name": "repo-explainer",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "music": { "src": "sfx/bed.wav", "volume": 0.35 },
+  "scenes": [
+    {
+      "id": "hook",
+      "template": "title",
+      "seconds": 3,
+      "text": "One JSON file edits this whole video",
+      "cues": [{ "sfx": "whoosh", "at": 0 }],
+      "captions": [[0.2, "One"], [0.5, "file."], [1.1, "Every"], [1.5, "scene"], [1.9, "and"], [2.1, "sound."]]
+    },
+    {
+      "id": "page",
+      "template": "ui_demo",
+      "seconds": 4,
+      "repo": "scene-spec / shorts-pipeline",
+      "stars": "2.4k",
+      "cursor": [[0, 0.75, 0.8], [1.6, 0.3, 0.355], [2.4, 0.3, 0.355]],
+      "clickAt": 2.4,
+      "cues": [{ "sfx": "click", "at": 2.4 }],
+      "captions": [[0.1, "Open"], [0.4, "the"], [0.6, "project"], [1.0, "page,"], [1.6, "click"], [2.0, "the"], [2.2, "demo."]]
+    },
+    {
+      "id": "flow",
+      "template": "flow",
+      "seconds": 6,
+      "steps": ["Script", "Scene spec", "Shared timeline", "Render"],
+      "cues": [{ "sfx": "pop", "at": "each_step" }],
+      "captions": [[0.3, "Scenes"], [0.7, "come"], [0.9, "from"], [1.1, "templates."], [3.0, "Sounds"], [3.4, "are"], [3.6, "pinned"], [4.0, "to"], [4.2, "events."]]
+    },
+    {
+      "id": "cta",
+      "template": "title",
+      "seconds": 3,
+      "text": "Change one number. Everything moves.",
+      "cues": [{ "sfx": "whoosh", "at": 0 }],
+      "captions": [[0.2, "Change"], [0.6, "one"], [0.9, "number."]]
+    }
+  ]
+}
